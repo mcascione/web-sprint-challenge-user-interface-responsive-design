@@ -78,7 +78,7 @@ h2 {
 }
 
 h3 {
-    font-size: 5rem;
+    font-size: 5rem; 
 }
 
 p, a {
@@ -209,6 +209,7 @@ footer {
     height: 15vh;
     padding-top: 2.5vh;
     font-size: 3rem;
+    background-color: black;
 }
 
 /* mobile media query */

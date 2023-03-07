@@ -64,6 +64,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
+    color: white;
 }
 
 h1 {
@@ -94,6 +95,11 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.fa-brands {
+    font-size: 2rem;
 }
 
 /* spacer */
