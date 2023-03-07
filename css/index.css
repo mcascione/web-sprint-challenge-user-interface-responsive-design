@@ -61,10 +61,12 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
+    color: white;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, i {
     text-decoration: none;
+    color: white;
 }
 
 h1 {
@@ -91,6 +93,19 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+.fa-brands {
+    font-size: 2rem;
 }
 
 /* spacers */
